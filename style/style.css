@@ -1,6 +1,8 @@
 *{
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-size: 62.5%;
 }
 header {
     border: 1px solid #000000;
@@ -25,7 +27,7 @@ header figure img {
 }
 .title {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 24px;
+    font-size: 2.4rem;
     text-transform: uppercase;
     align-self: center;
     
@@ -34,7 +36,7 @@ header figure img {
 }
 .title:hover {
     color: #fa6621;
-    font-size: 24px;
+    font-size: 2.4rem;
     background-color: #fae909;
     border-radius: 50px;
 }
@@ -79,12 +81,12 @@ header figure img {
     background-color: #ffffff;
 }
 .login:hover{
-    font: large;
+    
     background-color: #fa6621;
     color: #e9f2f3;
 }
 .login span{
-    font-size: 13px;
+    font-size: 1.3rem;
     
     justify-self: center;
     align-self: center;
@@ -110,7 +112,7 @@ main{
 .center {
     border: none;
     width: 870px;
-    height: 800px;
+    min-height: 800px;
     display: flex;
     justify-content:center ;
 }
@@ -118,7 +120,7 @@ main{
     margin-top: 20px;
     border: 100px solid #b5fc87;
     border-radius: 400px;
-    font-size: 45px;
+    font-size: 4.5rem;
     background-color: #cef7b2;
     height: 500px;
     width: 500px;
@@ -126,10 +128,10 @@ main{
 }
 .center-paragraph strong{
     color: rgb(8, 155, 27);
+    font-size: 100%;
 }
 .right {
     border: none;
-    border-left: 2px solid #a08b15;
     width: 250px;
     height: 800px;
 }
@@ -151,12 +153,14 @@ header{
     width: auto;
 }
 .center-paragraph{
-    font-size: 30px;
-    height: 300px;
-    width: 300px;
+    font-size: 3.0rem;
+    height: auto;
+    width: 100%;
+    border: 100px solid #b5fc87;
 }
 .right{
     width: 0px;
+    border-right: none;
 }
 
 
